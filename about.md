@@ -15,5 +15,3 @@ Simply put, I’m trying to push my knowledge and technical expertise forward th
 ### Contact
 
 danielritter4 [at] outlook.com
-
-[LinkedIn](https://www.linkedin.com/in/danielpritter/)
