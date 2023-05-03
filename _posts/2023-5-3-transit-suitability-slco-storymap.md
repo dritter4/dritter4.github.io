@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Assessing transit suitability in Salt Lake County (StoryMap conversion)
+title: StoryMap - Assessing transit suitability in SLCo
 ---
 
 *Note: This post replicates a [StoryMap](https://storymaps.arcgis.com/stories/3b36f06f0d0542f9b7c4b4978eb3a087) created for a [group project](https://dritter4.github.io/transit-suitability-slco-background/) in case it becomes inaccessible at some point in the future.*
 
-
- ## Background
+## Background
 
 Salt Lake County’s population is projected to grow by almost 500,000 – or 41% – over the next 40 years (Hollingshaus et al, 2022). If development patterns remain similar, much of this growth will occur outside of existing urban centers and sprawl across the entire Salt Lake Valley. As urbanization happens, the number of trips taken, distance traveled, and demand for transit services increases. Recent calls for equitable and sustainable planning have shifted the focus of some transportation authorities from reducing congestion to reducing vehicle miles traveled. Barring changes in land use and mix, this is usually accomplished by providing effective and efficient public transit systems.
 
@@ -32,13 +31,13 @@ We used data from the [American Community Survey](https://www.census.gov/program
 
 Our primary analysis weights were based on a study done by MetroNext in Omaha. Although not every variable used in their analysis was used in our own, there was a strong overlap between the two. Differences begin to show with the built environment portion of their variables, which we did not include; these weights were shifted to our other variable groups. 
 
+![_config.yml]({{ site.baseurl }}/images/slco-transit-suitability/metronext-weights.png)
+
 Another important difference to note is the lack of future population weights included in our analysis. We felt it was less important since the MetroNext study involved all forms of transit, while our study was entirely focused on buses. Bus routes have minimal build-outs and changes to infrastructure and are easily adjustable when compared to other forms of transit. Because of this, we felt it wasn’t necessary to try to predict population and job center changes over time. 
 
 While it was important for us to initially model our study on an established report, we wanted to include another model that would test for sensitivity in the model and emphasize ridership (population and job weights) rather than equity and demographics. 
 
-![_config.yml]({{ site.baseurl }}/images/slco-transit-suitability/metronext-weights.png)
-
-![_config.yml]({{ site.baseurl }}/images/slco-transit-suitability/our-weights.png)
+![_config.yml]({{ site.baseurl }}/images/slco-transit-suitability/analysis-weights.png)
 
 ## Methodology
 
@@ -58,7 +57,7 @@ Given the distribution of values – especially for job density, which is barely
 
 An interactive map is shown below. (*Note: The layers are transparent to allow for easier navigation around the county, so only one layer should be selected at once.*)
 
-MAP
+<iframe src="files/html/transit-suitability-maps/rescaled-variables.html" height="600px" width="100%" style="border:none;"></iframe>
 
 For the accessibility analysis, we downloaded transit stop data from the UGRC, filtered for Salt Lake County, and removed duplicate stops. Using stop coordinates and an API from [Openrouteservice](https://openrouteservice.org/), we calculated 5-, 10-, and 15-minute walksheds from each stop. Since there are over 3,000 transit stops in Salt Lake County, we used a loop function over the course of a week to avoid API call limits. After transforming the walksheds to EPSG 3566 and separating them by stop type (bus or rail) and walkshed distance, we dissolved each object to create a simplified walkshed and added a dummy variable to use during rasterization. Finally, we rasterized each simplified object and replaced NA values with 0 to avoid empty pixels after the raster overlay.
 
@@ -68,7 +67,7 @@ To simplify the suitability analysis, we began by creating a single transit acce
 
 Finally, we calculated two weighted overlays based on the weights described earlier: one which incorporates existing access to transit as a negative factor and one which does not include access. When visualizing the results, we decided to show only the most suitable areas, or those with the highest values. Values in the 95th percentile or higher are shown as “Most suitable” (dark blue), while values in the 90th percentile are shown as “Suitable” (light blue). The results of our primary analysis are shown below (the [full overlay](https://dritter4.github.io/CMP-6455/transit_analysis/ridership-suitability-full.html) is available on GitHub).
 
-MAP
+<iframe src="files/html/transit-suitability-maps/ridership-suitability-top.html" height="600px" width="100%" style="border:none;"></iframe>
 
 ## Findings
 
@@ -80,7 +79,7 @@ UTA recently published a [2023-2027 Service Plan](https://maps.rideuta.com/porta
 
 In our secondary analysis, we modified the variable weights to deprioritize population characteristics and emphasize job density, since employment is a major driver of economic growth. In this scenario, job density received a weight of 60%, population density received a weight of 20%, and household characteristics received weights of 5% each. The results of this secondary analysis are shown below (the [full overlay](https://dritter4.github.io/CMP-6455/transit_analysis/jobs-suitability-full.html) is available on GitHub).
 
-MAP
+<iframe src="files/html/transit-suitability-maps/jobs-suitability-top.html" height="600px" width="100%" style="border:none;"></iframe>
 
 In this scenario, there is a substantial decrease in suitability throughout the western part of Salt Lake County, with the exception of the industrial districts near the airport. They are slightly more suitable, specifically near Glendale. This decrease is balanced out by a clear increase in suitability throughout the entire southern part of the county, especially between Herriman and Riverton along Bangerter Highway and along the I-15 corridor.
 
@@ -127,8 +126,3 @@ United States Census Bureau. (2023). *Longitudinal Employer-Household Dynamics [
 United States Census Bureau. (2023). *TIGER/Line Shapefiles [Data set].* [https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
 
 Utah Geospatial Resource Center. (2023). *Bus, Commuter, and Light Rail [Data set].* [https://gis.utah.gov/data/transportation/transit/](https://gis.utah.gov/data/transportation/transit/)
-
-
-
-
-
