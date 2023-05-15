@@ -61,7 +61,7 @@ Given the distribution of values – especially for job density, which is barely
 
 An interactive map is shown below. (*Note: The layers are transparent to allow for easier navigation around the county, so only one layer should be selected at once.*)
 
-<iframe src="/files/html/transit-suitability-maps/rescaled-variables.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="/files/html/transit-suitability-maps/slco-original-rescaled-variables.html" height="600px" width="100%" style="border:none;"></iframe>
 
 For the accessibility analysis, we downloaded transit stop data from the UGRC, filtered for Salt Lake County, and removed duplicate stops. Using stop coordinates and an API from [Openrouteservice](https://openrouteservice.org/), we calculated 5-, 10-, and 15-minute walksheds from each stop. Since there are over 3,000 transit stops in Salt Lake County, we used a loop function over the course of a week to avoid API call limits. After transforming the walksheds to EPSG 3566 and separating them by stop type (bus or rail) and walkshed distance, we dissolved each object to create a simplified walkshed and added a dummy variable to use during rasterization. Finally, we rasterized each simplified object and replaced NA values with 0 to avoid empty pixels after the raster overlay.
 
@@ -71,7 +71,7 @@ To simplify the suitability analysis, we began by creating a single transit acce
 
 Finally, we calculated two weighted overlays based on the weights described earlier: one which incorporates existing access to transit as a negative factor and one which does not include access. When visualizing the results, we decided to show only the most suitable areas, or those with the highest values. Values in the 95th percentile or higher are shown as “Most suitable” (dark blue), while values in the 90th percentile are shown as “Suitable” (light blue). The results of our primary analysis are shown below (the [full overlay](https://dritter4.github.io/CMP-6455/transit_analysis/ridership-suitability-full.html) is available on GitHub).
 
-<iframe src="/files/html/transit-suitability-maps/ridership-suitability-top.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="/files/html/transit-suitability-maps/slco-original-ridership-suitability-top.html" height="600px" width="100%" style="border:none;"></iframe>
 
 ## Findings
 
@@ -83,7 +83,7 @@ UTA recently published a [2023-2027 Service Plan](https://maps.rideuta.com/porta
 
 In our secondary analysis, we modified the variable weights to deprioritize population characteristics and emphasize job density, since employment is a major driver of economic growth. In this scenario, job density received a weight of 60%, population density received a weight of 20%, and household characteristics received weights of 5% each. The results of this secondary analysis are shown below (the [full overlay](https://dritter4.github.io/CMP-6455/transit_analysis/jobs-suitability-full.html) is available on GitHub).
 
-<iframe src="/files/html/transit-suitability-maps/jobs-suitability-top.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="/files/html/transit-suitability-maps/slco-original-jobs-suitability-top.html" height="600px" width="100%" style="border:none;"></iframe>
 
 In this scenario, there is a substantial decrease in suitability throughout the western part of Salt Lake County, with the exception of the industrial districts near the airport. They are slightly more suitable, specifically near Glendale. This decrease is balanced out by a clear increase in suitability throughout the entire southern part of the county, especially between Herriman and Riverton along Bangerter Highway and along the I-15 corridor.
 

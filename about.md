@@ -9,10 +9,10 @@ I’m pursuing my master’s degree in city planning at the University of Utah w
 I’m especially excited about long-range transportation planning, multimodal travel, and spatial aspects of transportation systems. I’m interested in spatial and non-spatial data analysis, transportation modeling, and monitoring and evaluation.
 
 I have experience in the following tools:
-* Spatial: QGIS, ArcGIS
+* Spatial: QGIS, ArcGIS Pro, Google Earth Pro
 * Analytical: R, Excel, SQL
-* Travel Modeling: Synchro, Cube
-* Visualization: ArcGIS StoryMaps, PowerBI, Adobe Illustrator
+* Travel Modeling: Synchro, Cube (basic)
+* Visualization: ArcGIS StoryMaps, PowerBI, Adobe Illustrator and InDesign (basic)
 * Other: Qualtrics, Microsoft Office Suite
 
 
