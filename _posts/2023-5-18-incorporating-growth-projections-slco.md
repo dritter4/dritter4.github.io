@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Incorporating growth projections into a transit suitability analysis
+thumbnail: /images/slco-transit-suitability/slc-last-of-us.png
 ---
 
-Earlier this year, I worked on a [transit suitability analysis]( https://storymaps.arcgis.com/stories/3b36f06f0d0542f9b7c4b4978eb3a087) of Salt Lake County as part of a graduate course on spatial data ([context for the project](https://dritter4.github.io/transit-suitability-slco-background/)). There were three main limitations to our analysis: 
+Earlier this year, I worked on a [transit suitability analysis](https://storymaps.arcgis.com/stories/3b36f06f0d0542f9b7c4b4978eb3a087) of Salt Lake County as part of a graduate course on spatial data ([context for the project](https://dritter4.github.io/transit-suitability-slco-background/)). There were three main limitations to our analysis: 
 1.	We used a limited set of variables that may not perfectly represent transit need and demand.
 2.	We didn’t account for non-employment destinations or activity centers. 
 3.	We didn’t incorporate any type of growth projection.

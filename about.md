@@ -12,7 +12,7 @@ I have experience in the following tools:
 * Spatial: QGIS, ArcGIS Pro, Google Earth Pro
 * Analytical: R, Excel, SQL
 * Travel Modeling: Synchro, Cube (basic)
-* Visualization: ArcGIS StoryMaps, PowerBI, Adobe Illustrator and InDesign (basic)
+* Visualization: ArcGIS StoryMaps, PowerBI, Adobe Illustrator and InDesign
 * Other: Qualtrics, Microsoft Office Suite
 
 
@@ -22,4 +22,4 @@ Simply put, I’m trying to push my professional knowledge and technical experti
 
 ### Contact
 
-danielritter4 [at] outlook.com
+danielritter4 [at] outlook [.] com

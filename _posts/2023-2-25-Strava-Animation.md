@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Visualizing where I've run
+thumbnail: /images/strava-animation/strava-thumbnail.png
 ---
 
 A few months ago, I stumbled across a tutorial by Andriy Yaremenko on [animating Strava .gpx tracks in QGIS](https://medium.com/geospatial-analytics/how-to-animate-strava-gpx-tracks-in-qgis-8a8ca6b58ebc) and had one of those moments where you can practically see the neurons firing as a lightbulb goes off in your head. 

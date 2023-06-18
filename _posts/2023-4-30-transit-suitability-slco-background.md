@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Assessing transit suitability in Salt Lake County
+thumbnail: /images/slco-transit-suitability/slco-transit-thumbnail-1.png
 ---
 
 Over the last few months, I’ve grown my spatial and analytical skills through an advanced technical course in my graduate program and I’m excited to share the results of my first major spatial analysis project. The course in question, CMP 6455 Spatial Data Analytics, had three objectives: 

@@ -1,12 +1,14 @@
 ---
 layout: post
 title: StoryMap - Assessing transit suitability in SLCo
+thumbnail: /images/slco-transit-suitability/slco-transit-thumbnail-2.jpg
 ---
 
 *Note: This post replicates a [StoryMap](https://storymaps.arcgis.com/stories/3b36f06f0d0542f9b7c4b4978eb3a087) created for a [group project](https://dritter4.github.io/transit-suitability-slco-background/) in case it becomes inaccessible at some point in the future. Plus, I wanted to learn how to embed HTML maps in Jekyll, which turned out to be quite easy - you can add an iframe that embeds an HTML map stored elsewhere in the repo. The HTML below came from [Rob Williams](https://jayrobwilliams.com/posts/2020/09/jekyll-html) (the next step is learning to do this through R Markdown).*
 
 ``` html
-<iframe src="/files/html/FILE-NAME.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="/files/html/FILE-NAME.html" height="600px" width="100%" 
+        style="border:none;"></iframe>
 ```
 
 ## Background
