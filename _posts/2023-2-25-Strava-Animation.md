@@ -57,5 +57,3 @@ The next animation shows how my roommate Tim and I explored DC’s regional trai
 The last animation depicts my longest run (so far) – a 40-mile odyssey along the Maryland section of the Appalachian Trail. Easily one of the hardest, most rewarding experiences that I’ve ever had. This animation isn’t as interesting as the others, but the story behind it adds personal meaning.
 
 ![_config.yml]({{ site.baseurl }}/images/strava-animation/maryland-challenge-animation.gif)
-
-I’m injured at the moment (which is why I’m finally pursuing all of these side projects), but I’m excited to continue making these maps as I come up with new patterns to try out. 
