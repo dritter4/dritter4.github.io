@@ -18,7 +18,7 @@ Growing up, I would get to downtown Springfield by driving south from my house, 
 
 Going back to the aerial overlays, a schematic transit diagram offers a simplified interpretation of the real world. It helps you navigate the transit system and usually includes some contextual details like rivers, green space, or local boundaries, but it ignores almost everything outside of the system itself. 
 
-![_config.yml]({{ site.baseurl }}/images/transit-maps/dc-metro-diagram-comparison.png)
+![_config.yml]({{ site.baseurl }}/images/transit-maps/dc-metro-comparison.png)
 
 If you ride the system enough, you start to think more about the city from the perspective of the schematic and less about the city’s form itself. Looking at a spatially accurate depiction of the system challenges this perception – especially when it’s a novel view of the city, such as an aerial overlay.
 
