@@ -1,1 +1,1 @@
-Created using [Jekyll Now](https://github.com/barryclark/jekyll-now) by Barry Clark.
+Built using [Jekyll Now](https://github.com/barryclark/jekyll-now) by Barry Clark.
