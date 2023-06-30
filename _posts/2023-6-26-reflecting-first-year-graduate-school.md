@@ -6,9 +6,11 @@ thumbnail: /images/uofu-mcmp/uofu-studentservices.jpg
 
 With my second – and final – year of graduate school quickly approaching, I wanted to reflect on what I learned during my first year. Deciding to pursue a master’s degree in city planning was a Big Decision (especially when you’re moving across the country), but the last year has shown me that it was the right decision. That being said, I’m not sure the degree would be worth it without the financial support I’m receiving through fellowships and assistantships. So far, its primary value has come from being able to explore personal interests and technical skills, rather than the lecture content or group projects (with some exceptions).
 
+(I thought more about this, and a graduate program is especially helpful when you’re learning about an entirely new region. The Intermountain West is a completely different environment than the Mid-Atlantic – not just in the urban form, but in perspectives on water, nature, conservation, etc. and attitudes toward growth and planning.)
+
 For a little context, I’m studying in the [Master of City & Metropolitan Planning](https://plan.cap.utah.edu/) (MCMP) program at the University of Utah in Salt Lake City. It’s a two-year professional program with a capstone project, and I’m focusing on transportation planning and spatial data analysis.
 
-*(I thought more about this, and a graduate program is especially helpful when you’re learning about an entirely new region. The Intermountain West is a completely different environment than the Mid-Atlantic – not just in the urban form, but in perspectives on water, nature, conservation, etc. and attitudes toward growth and planning.)*
+*(Note: My comment about value is more a statement about the cost of education in general. It's hard for me to argue that a graduate degree in planning is worth roughly $120,000 in tuition and living expenses if you're paying fully out of pocket.)*
 
 ## Fall 2022
 
@@ -16,7 +18,7 @@ After working full-time for almost three years, returning to school was a major 
 
 ### CMP 6010 Community & Regional Analysis
 
-While I probably won’t have a need for the advanced methods I learned in this course, it was very helpful to become familiar with American Community Survey (ACS) data and gain more experience in Excel, especially when it came to pivot tables and dashboards. We had to create an interactive dashboard for our semester project, and I was able to sync the slicers across multiple tables and charts using Power Pivot’s data model functionality. However, Power Pivot is a Windows-only feature, so I ended up recreating the dashboard so that it would work on any operating system. 
+This course focused on advanced methods for projecting population and job growth and it was very helpful to become familiar with American Community Survey (ACS) data and gain more experience in Excel, especially when it came to pivot tables and dashboards. We had to create an interactive dashboard for our semester project, and I was able to sync the slicers across multiple tables and charts using Power Pivot’s data model functionality. However, Power Pivot is a Windows-only feature, so I ended up recreating the dashboard so that it would work on any operating system, which was a fun challenge. 
 
 ![_config.yml]({{ site.baseurl }}/images/uofu-mcmp/cmp6010-dashboard.png)
 
