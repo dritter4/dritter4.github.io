@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Catch-22 of Bicycle Infrastructure
+title: The catch-22 of bicycle infrastructure
 thumbnail: /images/commentary/catch-twentytwo-thumbnail.jpg
 ---
 
