@@ -31,7 +31,8 @@ Planning Intern I (May 2023 - Present)
 
 **University of Utah** <br/>
 Research Assistant, [Healthy Aging & Resilient Places Lab](https://www.harp.utah.edu/) (September 2022 - May 2022) <br/>
-Teaching Assistant, Introduction to Transportation Planning (August 2023 - Present)
+Teaching Assistant, Introduction to Transportation Planning (August 2023 - December 2023) <br/>
+Teaching Assistant, Field Studies in Urban Ecology (January 2024 - May 2024)
 
 **Partnership for Public Service** <br/>
 Associate Manager, Leadership Development (August 2021 - June 2022) <br/>
@@ -48,8 +49,8 @@ Policy Intern (January - April 2018)
 
 ## Technical Skills
 
-* Spatial: ArcGIS Pro, ArcPy, QGIS, Google Earth Pro
-* Analytical: R, Python, Excel, SQL
+* Spatial: ArcGIS Pro, QGIS, Google Earth Pro
+* Analytical: R, Python, Microsoft Excel, SQL
 * Travel Modeling: Synchro (basic), Cube (basic)
 * Visualization: PowerBI, Adobe Illustrator, Adobe InDesign (basic)
 * Other: Qualtrics, Microsoft Office Suite
@@ -60,6 +61,7 @@ Policy Intern (January - April 2018)
 * Geoprocessing in Python
 * Transportation Analysis Methods
 * Introduction to Transportation Planning
+* Data Visualization
 
 ## Professional Affiliations
 
