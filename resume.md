@@ -4,55 +4,45 @@ title:
 permalink: /resume/
 ---
 
-***
-
-*Please contact me at danielritter4 [at] outlook [.] com for a detailed resume.*
-
-***
-
 ## Education
 
 **University of Utah** <br/>
 Master of City & Metropolitan Planning
-* [Global Change & Sustainability Center Fellow](https://environment.utah.edu/students-fellows/)
+* American Planning Association Outstanding Student Award
 * Robert Farrington Medal for Academic Excellence
-* [University of Utah Urbanists](https://www.instagram.com/uofuurbanists/), Vice President
-* Department of City & Metropolitan Planning, Student Advisory Committee
-* Sustainable Campus Investment Fund, Allocations Committee
+* Department of City & Metropolitan Planning Special Achievement Award
+* [Global Change & Sustainability Center Fellow](https://environment.utah.edu/students-fellows/)
+* [Urbanists at the University of Utah](https://www.instagram.com/uofuurbanists/), Vice President
 
 **American University** <br/>
 Bachelor of Arts, Interdisciplinary Studies: Public Policy
 * School of Public Affairs Honors Program ([Capstone](https://dritter4.github.io/files/uofu-mcmp/SPA480-UndergraduateCapstone.pdf))
 
+***
+
 ## Professional Experience
 
+**Foursquare ITP** <br/>
+Transportation Planner (Jun 2024 - Present)
+
 **AECOM** <br/>
-Planning Intern I (May 2023 - Present)
+Planning Intern I (May 2023 - Apr 2024)
 
 **University of Utah** <br/>
-Research Assistant, [Healthy Aging & Resilient Places Lab](https://www.harp.utah.edu/) (September 2022 - May 2022) <br/>
-Teaching Assistant, Introduction to Transportation Planning (August 2023 - December 2023) <br/>
-Teaching Assistant, Field Studies in Urban Ecology (January 2024 - May 2024)
+Research Assistant, [Healthy Aging & Resilient Places Lab](https://www.harp.utah.edu/) (Sep 2022 - May 2024) <br/>
+Teaching Assistant, Intro to Transportation Planning (Aug - Dec 2023) <br/>
 
 **Partnership for Public Service** <br/>
-Associate Manager, Leadership Development (August 2021 - June 2022) <br/>
-Associate, Leadership Development (October 2019 - August 2021)
+Associate Manager, Leadership Development (Oct 2019 - Jun 2022) <br/>
 
-**Project on Civil Discourse, American University** <br/>
-Program Coordinator (August 2018 - May 2019)
-
-**City Manager's Office, City of Springfield, OH** <br/>
-Research Intern (May - July 2018)
-
-**Rails-to-Trails Conservancy** <br/>
-Policy Intern (January - April 2018)
+***
 
 ## Technical Skills
 
 * Spatial: ArcGIS Pro, QGIS, Google Earth Pro
-* Analytical: R, Python, Microsoft Excel, SQL
+* Analytical: R, SQL, Python, Microsoft Excel
 * Travel Modeling: Synchro (basic), Cube (basic)
-* Visualization: PowerBI, Adobe Illustrator, Adobe InDesign (basic)
+* Visualization: Adobe Illustrator, PowerBI
 * Other: Qualtrics, Microsoft Office Suite
 
 ## Relevant Coursework
@@ -67,4 +57,8 @@ Policy Intern (January - April 2018)
 
 * American Planning Association, Utah Chapter
 * Association for Pedestrian and Bicycle Professionals, Utah Chapter
-* Young Professionals in Transportation
+* Young Professionals in Transportation, DC Chapter
+
+***
+
+*Please contact me at danielritter4 [at] outlook [.] com for a detailed resume.*
