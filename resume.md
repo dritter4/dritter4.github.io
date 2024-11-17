@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Resume
 permalink: /resume/
 ---
 
@@ -8,7 +8,8 @@ permalink: /resume/
 
 **University of Utah** <br/>
 Master of City & Metropolitan Planning
-* American Planning Association Outstanding Student Award
+* APA Outstanding Student Award
+* APA Utah George Smeath Planning Student Award
 * Robert Farrington Medal for Academic Excellence
 * Department of City & Metropolitan Planning Special Achievement Award
 * [Global Change & Sustainability Center Fellow](https://environment.utah.edu/students-fellows/)
@@ -23,7 +24,7 @@ Bachelor of Arts, Interdisciplinary Studies: Public Policy
 ## Professional Experience
 
 **Foursquare ITP** <br/>
-Transportation Planner (Jun 2024 - Present)
+Transportation Planner II (Jun 2024 - Present)
 
 **AECOM** <br/>
 Planning Intern I (May 2023 - Apr 2024)
@@ -42,8 +43,8 @@ Associate Manager, Leadership Development (Oct 2019 - Jun 2022) <br/>
 * Spatial: ArcGIS Pro, QGIS, Google Earth Pro
 * Analytical: R, SQL, Python, Microsoft Excel
 * Travel Modeling: Synchro (basic), Cube (basic)
-* Visualization: Adobe Illustrator, PowerBI
-* Other: Qualtrics, Microsoft Office Suite
+* Visualization: PowerBI, Adobe Illustrator
+* Other: Microsoft Office Suite, Qualtrics
 
 ## Relevant Coursework
 
